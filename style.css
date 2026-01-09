@@ -97,7 +97,7 @@ body{
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--accent);
-    box-shadow: 0 0 200px var(--accent-glow);
+    box-shadow: 0 0 50px var(--accent-glow);
     animation: float 3s ease-in-out infinite;
     filter: grayscale(0.2) contrast(1.1);
 }
@@ -262,3 +262,4 @@ footer {
     font-size: 0.8rem;
     color: #b5b5b5;
 }
+
