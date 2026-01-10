@@ -131,7 +131,12 @@ body{
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-
+    transition: all 0.3s ease;
+}
+.cta-button:hover{
+    transform: translateY(-10px);
+    border-color: var(--accent);
+    box-shadow: 0 10px 30px var(--accent-glow);
 }
 
 .skills {
@@ -266,4 +271,5 @@ footer {
     text-align: center;
     font-size: 2.5rem;
 }
+
 
